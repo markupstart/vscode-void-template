@@ -19,7 +19,6 @@ depends="libX11 libxkbfile libsecret gtk+3 libXtst nss alsa-lib"
 conflicts="vscode>=0"
 
 shlib_provides="libffmpeg.so libmsalruntime.so libvulkan.so.1"
-noshlibhints=yes
 allow_unknown_shlibs=yes
 
 do_install() {
